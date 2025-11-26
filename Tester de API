@@ -1,0 +1,54 @@
+# 🧪 Tester de API – Urban Grocers Delivery Service
+*Postman · API Testing · Apidoc · Backend Requirements · Jira · Test Cases*
+
+## 📌 Introducción
+Proyecto enfocado en validar nuevos requisitos del servicio de entrega “Order and Go” en Urban Grocers. El objetivo fue asegurar que la API procesara correctamente los parámetros obligatorios, manejara errores, retornara las respuestas esperadas y cumpliera con los requisitos del backend.
+
+## ⭐ Features
+- Análisis detallado de requisitos técnicos y estructura de la API en Apidoc.
+- Diseño de casos de prueba para los parámetros:
+  - `deliveryTime`
+  - `productsCount`
+  - `productsWeight`
+- Cobertura completa de:
+  - Casos positivos
+  - Casos negativos
+  - Clases de equivalencia
+  - Valores límite
+- Validación del endpoint:
+  - **POST /order-and-go/v1/delivery**
+- Confirmación de respuestas 200, 400 y estructura del JSON.
+- Verificación del campo `isItPossibleToDeliver` según reglas de negocio.
+
+## 🛠 Tech utilizadas
+- Postman  
+- Apidoc  
+- Requisitos Backend  
+- Jira  
+- JSON  
+- Manual API Testing  
+
+## 📂 Uso / Cómo navegar el proyecto
+1. Abrir **/test-cases** para ver los casos de prueba por parámetro.
+2. Revisar **/collections** para ver las solicitudes Postman exportadas.
+3. Consultar **/bug-reports** para ver defectos documentados con su ID de Jira.
+4. Ver **/evidence** para revisar capturas de solicitudes y respuestas de la API.
+
+## 🐞 Gestión de defectos
+- Documentación de errores en Jira con:
+  - Título claro y único
+  - Pasos para reproducir
+  - Resultado esperado vs. real
+  - Código y mensaje de respuesta
+  - Prioridad y entorno
+- Enlaces de cada bug a su caso correspondiente.
+
+## 🎯 Resultado / Lecciones aprendidas
+Este proyecto fortaleció mis habilidades en:
+- Diseño de pruebas de API  
+- Validación de parámetros y reglas de negocio  
+- Uso de Postman para pruebas complejas  
+- Interpretación de documentación técnica  
+- Identificación y reporte de errores backend  
+
+El endpoint fue validado exitosamente, detectando inconsistencias en validaciones, estructura del body y manejo de errores por parte del servicio.
