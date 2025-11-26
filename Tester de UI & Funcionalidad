@@ -1,0 +1,38 @@
+Tester de UI & Funcionalidad – Car Sharing Urban Routes
+
+Proyecto enfocado en validar el flujo de "Compartir un automóvil" dentro de Urban Routes. Se realizaron pruebas de UI, diseño, usabilidad y funcionalidad en dos entornos (Chrome y Firefox), siguiendo los requisitos y diseños proporcionados.
+
+## 🧩 Features
+
+- Validación del diseño del formulario de reserva.
+- Revisión de pop-ups: "Automóvil reservado", "¿Seguro que quieres cancelar?", "Viaje cancelado".
+- Checklists de UI basados en Figma.
+- Validación cross-browser (Chrome y Firefox).
+- Pruebas funcionales del flujo de reserva.
+- Pruebas positivas y negativas para: 
+  - Método de pago
+  - Agregar tarjeta
+  - Botón "Reservar"
+- Documentación de defectos en Jira.
+
+## 💻 Tech Stack
+
+- Chrome (800x600)
+- Firefox (1920x1080)
+- Figma
+- Jira
+- Google Sheets (Casos de prueba y checklists)
+- Manual Testing
+
+## ✍️ Lessons Learned
+
+Este proyecto fortaleció mis habilidades en:
+- UI Testing
+- Validación cross-browser
+- Diseño de checklists
+- Diseño de casos de prueba
+- Análisis de requisitos
+- Documentación de errores en Jira
+
+El flujo de car sharing fue validado con éxito y se identificaron defectos relevantes en diseño, mensajes y lógica.
+
